@@ -38,7 +38,7 @@
           <p>Notes: We have two customers with Quaterly membership </p>
         </ion-label>
       </ion-item>
-      <ion-button color="succes" fill="clear" size="fulll">See all..
+      <ion-button color="succes" fill="clear" size="full" (click)="goToPickupCalls()">See all..
 
 
       </ion-button>
@@ -46,7 +46,7 @@
 
     </ion-card>
     <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-      <ion-fab-button color="success">
+      <ion-fab-button color="success" (click)="newPickupCall()">
         <ion-icon name="add">
 
         </ion-icon>
